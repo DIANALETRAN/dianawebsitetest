@@ -1,6 +1,6 @@
 # dianawebsitetest
  Presale Solutions Architect Technical Assessment
-<img src='dog.jpg'alt="This is a photo of a cute brown dog" width "100px" height='100px'>
+<img src='dog.jpg'alt="This is a photo of a cute brown dog" width="100px" height='100px'>
 <html>
 
 <head>
