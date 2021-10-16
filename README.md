@@ -1,6 +1,6 @@
 # dianawebsitetest
  Presale Solutions Architect Technical Assessment
-<img src='dog.jpg'align="bottom">
+<img src='dog.jpg'>
 <html>
 
 <head>
