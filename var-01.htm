@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>JavaScript Variable Example</title>
+
+<script type="text/JavaScript">
+
+// load up some variables
+
+var secsPerMin = 60;
+var minsPerHour = 60;
+var hoursPerDay = 24;
+var daysPerYear = 365;
+
+var string="<b>this is a string with some text typed in it</b>, <br>and the final amount again = ";
+
+// do some calculations
+
+var secsPerDay = secsPerMin * minsPerHour * hoursPerDay;
+var secsPerYear = secsPerDay * daysPerYear;
+
+</script>
+</head>
+
+
+<body>
+
+<h1>How do you stay so fit?</h1>
+
+<script language="JavaScript">
+
+// here's how to use JavaScript to write out HTML
+
+document.write("<b>I dance ");
+document.write("non Stop ");
+document.write(secsPerYear);
+document.write(" seconds per year.<br><br>It's exhausting!</b><p>");
+
+
+document.write("And just to make sure that the line of text can actualy <u>wrap</u> around the <b>browser window</b>, I am writing a long bit of text in this sentence as if it were a paragraph but without Pharagraph brakes...<i>notice the styles in the text</i>.");
+
+document.write("<br><br>");
+
+document.write(string+secsPerYear);
+
+</script>
+
+
+</body>
+</html>

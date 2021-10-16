@@ -1,0 +1,98 @@
+﻿<html>
+
+<head>
+
+<title>JavaScripting Samples</title>
+
+<script type="text/javascript">
+
+function ShowDate()
+
+{
+document.getElementById("demo").innerHTML=Date();
+}
+
+function pagecolour(code)
+{
+document.bgColor=code;
+}
+
+function MsgBox (blaa) 
+{
+alert (blaa) 
+}
+
+</script>
+
+</head>
+
+
+<body>
+
+<h1>JavaScript Samples</h1>
+
+<h3>Change content of paragraph</h3>
+
+<p id="demo">This is a paragraph.</p>
+
+<button type="button" onMouseOver="ShowDate()">Display Date</button>
+
+
+<p>--------</p>
+
+<hr>
+
+<h3>Change Background colour</h3>
+
+<input type="button" name="Button2" value="GREEN" onclick="pagecolour('green')">
+
+<input type="button" name="Button3" value="RED" onClick="pagecolour('#ff0000')">
+
+</form>
+
+
+<b>Reset Background colour</b>
+<a href="#"><img src="white.gif" width="20" hight="20" border="0" align="absmiddle" OnClick="pagecolour('white')"> </a>
+
+
+
+<p>--------</p>
+<hr>
+
+
+<h3>Rollover Images</h3>
+
+<a href="#" onMouseOver="imgfan.src='Leaf01.gif'" onMouseOut="imgfan.src='Leaf02.gif'">
+<img name="imgfan" src="Leaf02.gif" width='61' height='72' border='0'>
+</a>
+
+
+<p>--------</p>
+
+<a href="#" onMouseOver="fred.src='dog01.gif'" onMouseOut="fred.src='dog.gif'">
+<img src="dog.gif" name="fred" width="100" hight="100" border="0" OnClick="pagecolour('yellow')"></a> 
+
+
+<img src="dog.gif" name="bob" width="100" hight="100" border="0" onMouseOver="bob.src='dog01.gif'" onMouseOut="bob.src='dog.gif'" OnClick="pagecolour('#6699cc')">
+
+<p>--------</p>
+
+<hr>
+
+<form>
+
+<h3>Display content of input box</h3>
+
+<input type="text" name="text1">
+
+<input type='button' name="submit" value="Show Me" onClick="MsgBox(form.text1.value)">
+
+<p>--------</p>
+
+<hr>
+
+
+
+
+</body>
+</html> 

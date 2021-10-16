@@ -1,0 +1,63 @@
+﻿<html>
+
+<head>
+<title>Replace with your Title</title>
+
+<style>
+
+h6 {
+
+font-family:arial;
+font-size:25px;
+color:#ff0066;
+
+}
+
+#special1 {
+
+font-family:arial;
+font-size:25px;
+color:#ffcc66;
+
+}
+
+</style>
+
+<script type="text/JavaScript">
+
+var name= prompt("please give us your name","");
+var suburb= prompt("your suburb is...","");
+var country= prompt("your country is...","");
+
+var text="Good morning " + name + " from " + suburb + ". Your country is " + country;
+
+</script>
+
+</head>
+
+
+
+<body>
+
+<script type="text/JavaScript">
+
+
+document.write(text);
+
+document.write("<br>");
+document.write("<br>");
+
+
+document.write("<h3>" + text + "</h3>");
+
+document.write("<h6>There is a special country called " +country+ " with nice suburbs, just like " +suburb+ " and people like " +name+ " live there.</h6>");
+
+document.write("<div id='special1'><b><i>" + text + "</i></b></div>");
+document.write("<br>");
+
+
+</script>
+
+
+</body>
+</html>
