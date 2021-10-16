@@ -1,6 +1,5 @@
 # dianawebsitetest
  Presale Solutions Architect Technical Assessment
-<img src='dog.jpg'>
 <html>
 
 <head>
@@ -10,6 +9,7 @@
 </head>
 
 <body>
+<img src='dog.jpg'>
 This is my first attempt at creating a website on GitHub
 
 </body>
