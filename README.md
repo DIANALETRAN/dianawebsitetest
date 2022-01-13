@@ -34,13 +34,4 @@ This is my first attempt at creating a website on GitHub
   gtag('js', new Date());
 
   gtag('config', 'G-NZZBE1EXTR');
-</script>
-
-</html>
-
-<hr>
-<div id="section-cta">
-  <h3> {{ section.settings.text-box }} </h3>
-  <a href="{{ section.settings.link }}" class="button">{{ section.settings.linktext }}</a>
-</div>
-<hr>
+ </script>
